@@ -13,7 +13,7 @@ Este proyecto corresponde a al examen final del curso. Consiste en un porfalio w
     ├── index.html # Página principal
     ├── css/ # Hojas de estilo
     │ ├── contacto_style.css
-    │ ├── indez_style.css
+    │ ├── index_style.css
     │ └── servicios_style.css
     ├── html/ # Páginas adicionales
     │ ├── contacto.html
