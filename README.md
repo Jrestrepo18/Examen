@@ -34,10 +34,15 @@ Este proyecto corresponde a al examen final del curso. Consiste en un porfalio w
 ## Descripción de las Páginas
 
 - **index.html**: Página de inicio del sitio con boton que dirige a la seccion sobre mi.
-      - Maqueta:
-              
-- **contacto.html**: Sección de contacto con formulario.
+      ![Captura desde 2025-06-09 20-03-46](https://github.com/user-attachments/assets/28bc08b8-823c-47b5-aa7d-7e13a4ca0d12)
+- **sobre mi**: Pagina dedica a mostrar un poco sobre mi y lo que me gusta.
+      ![image](https://github.com/user-attachments/assets/e9cdc829-0251-49bd-a96d-f4c612601b18)
 - **proyectos**: Página dedicada a los proyectos realizados.
+      ![image](https://github.com/user-attachments/assets/4aa9bd89-1258-4b8e-8d87-8ce2b4fd1d26)
+- **contacto.html**: Sección de contacto con formulario.
+      ![image](https://github.com/user-attachments/assets/1b23794a-177c-4992-b3cc-5d7d56f54b0c)
+
+
 
 ## Estilos
 
