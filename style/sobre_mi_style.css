@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.card__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem 2rem;
+}
+
+.header__title {
+    font-size: 1.8rem;
+}
+
+.header__nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav__option {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.nav__option:hover {
+    background-color: #117226;
+}
+
+/* Main */
+.card__main {
+    padding: 2rem;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.content__img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content__img{
+    transition: transform 0.5s ease; /* Transición suave para el cambio de transform*/
+    width: 450px; /* Establecer el ancho de la imagen */
+  }
+  
+  .content__img:hover {
+    transform: translate(50px, 50px) rotate(45deg) scale(1.2); /* Desplaza, rota y escala al pasar el ratón */
+  }
+
+.card__content {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.content__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: bold;
+}
+
+.list_option {
+    padding: 10px 20px;
+    border: 1px solid #117226;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #117226;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #f0e68c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* --- RESPONSIVE --- */
+
+/* Tablets (iPad) */
+@media (max-width: 1024px) {
+    .about__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__nav {
+        justify-content: center;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .card__header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__title {
+        font-size: 1.5rem;
+    }
+
+    .card__main {
+        padding: 1rem;
+    }
+
+    .nav__option {
+        font-size: 0.95rem;
+    }
+
+    .list_option {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
