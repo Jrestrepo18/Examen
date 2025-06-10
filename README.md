@@ -38,7 +38,7 @@ Este proyecto corresponde a al examen final del curso. Consiste en un porfalio w
 
 Cada página cuenta con su propia hoja de estilos ubicada en la carpeta `css/`, lo que permite un diseño independiente y modular.
 
-## 🖼Imágenes
+## Imágenes
 
 La carpeta `img/` contiene los banners visuales utilizados para embellecer la página principal y la de servicios.
 
