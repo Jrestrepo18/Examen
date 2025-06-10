@@ -26,11 +26,16 @@ Este proyecto corresponde a al examen final del curso. Consiste en un porfalio w
     │ ├── perfil.jpg
     ├── video/ # Video usado en el proyecto
     │ ├── video_fondo
-  
     
+## Tecnologias usadas
+- HTML 5
+- CSS
+- 
 ## Descripción de las Páginas
 
 - **index.html**: Página de inicio del sitio con boton que dirige a la seccion sobre mi.
+      - Maqueta:
+              
 - **contacto.html**: Sección de contacto con formulario.
 - **proyectos**: Página dedicada a los proyectos realizados.
 
